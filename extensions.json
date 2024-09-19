@@ -1,0 +1,19 @@
+{
+  "recommendations": [
+    // General
+    "usernamehw.errorlens", // show diagnostics on editor
+    "ryu1kn.text-marker", // enable highlighting
+    "ms-vscode.live-server", // enable local hosting for web page preview
+    "vscode-icons-team.vscode-icons", // enable better icons
+    // Formatter
+    "esbenp.prettier-vscode", // enable prettier formatter
+    // Markdown
+    "yzhang.markdown-all-in-one", // enhance markdown
+    // CSV
+    "mechatroner.rainbow-csv", // enable csv highting
+    // PDF
+    "tomoki1207.pdf",
+    // Color Theme
+    "sdras.night-owl" // enable night owl color theme
+  ]
+}
