@@ -5,6 +5,7 @@
     "ryu1kn.text-marker", // enable highlighting
     "ms-vscode.live-server", // enable local hosting for web page preview
     "vscode-icons-team.vscode-icons", // enable better icons
+    "tomrijndorp.find-it-faster", // enable faster file search with fzf
     // Formatter
     "esbenp.prettier-vscode", // enable prettier formatter
     // Markdown
