@@ -1,17 +1,33 @@
 {
   "recommendations": [
     // General
-    "usernamehw.errorlens", // show diagnostics on editor
     "ryu1kn.text-marker", // enable highlighting
     "ms-vscode.live-server", // enable local hosting for web page preview
     "vscode-icons-team.vscode-icons", // enable better icons
     "tomrijndorp.find-it-faster", // enable faster file search with fzf
+    "gruntfuggly.todo-tree", // enable to-do tree on the explorer
+    "johnpapa.vscode-peacock", // enable vscode window coloring
+    // Editting helper
+    "usernamehw.errorlens", // show diagnostics on editor
+    "aaron-bond.better-comments", // enable comment highlighting
+    "ionutvmi.path-autocomplete", // enable path autocomplete
+    "oderwat.indent-rainbow", // makes indentation easier to read
+    "shardulm94.trailing-spaces", // highlight trailing spaces
+    "streetsidesoftware.code-spell-checker", // enable extended spell checker
+    "chakrounanas.turbo-console-log", // enable instant console.log creation
+    "alefragnani.bookmarks", // enable bookmarks in editor
+    // Vim Emulator
+    "vscodevim.vim",
     // Formatter
     "esbenp.prettier-vscode", // enable prettier formatter
+    // HTML/XML
+    "formulahendry.auto-rename-tag", // auto-update renameing tags
+    // CSS
+    "pranaygp.vscode-css-peek", // enable css peek on html elements
     // Markdown
     "yzhang.markdown-all-in-one", // enhance markdown
     // CSV
-    "mechatroner.rainbow-csv", // enable csv highting
+    "mechatroner.rainbow-csv", // enable csv highlighting
     // PDF
     "tomoki1207.pdf",
     // Color Theme
