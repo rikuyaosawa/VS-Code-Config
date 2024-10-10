@@ -12,7 +12,7 @@
   {
     "key": "space f f",
     "command": "find-it-faster.findFiles",
-    "when": "vim.mode != 'Insert'"
+    "when": "editorTextFocus && vim.mode != 'Insert'"
   },
   {
     "key": "ctrl+o",
