@@ -24,12 +24,12 @@
   // split view
   {
     "key": "space s v",
-    "command": "workbench.action.splitEditorRight", // require FindItFaster ext.
+    "command": "workbench.action.splitEditorRight",
     "when": "editorTextFocus && vim.mode != 'Insert'"
   },
   {
     "key": "space s h",
-    "command": "workbench.action.splitEditorDown", // require FindItFaster ext.
+    "command": "workbench.action.splitEditorDown",
     "when": "editorTextFocus && vim.mode != 'Insert'"
   },
   {
