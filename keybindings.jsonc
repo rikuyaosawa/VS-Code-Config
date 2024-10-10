@@ -1,4 +1,5 @@
 [
+  // file tree
   {
     "key": "space e e",
     "command": "workbench.view.explorer",
@@ -9,6 +10,7 @@
     "command": "workbench.action.toggleSidebarVisibility",
     "when": "explorerViewletFocus",
   },
+  // search
   {
     "key": "space f f",
     "command": "find-it-faster.findFiles", // require FindItFaster ext.
@@ -17,6 +19,17 @@
   {
     "key": "space f s",
     "command": "find-it-faster.findWithinFiles", // require FindItFaster ext.
+    "when": "editorTextFocus && vim.mode != 'Insert'"
+  },
+  // split view
+  {
+    "key": "space s v",
+    "command": "workbench.action.splitEditorRight", // require FindItFaster ext.
+    "when": "editorTextFocus && vim.mode != 'Insert'"
+  },
+  {
+    "key": "space s h",
+    "command": "workbench.action.splitEditorDown", // require FindItFaster ext.
     "when": "editorTextFocus && vim.mode != 'Insert'"
   },
   {
