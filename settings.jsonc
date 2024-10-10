@@ -15,6 +15,7 @@
   "code-runner.clearPreviousOutput": true,
   "code-runner.runInTerminal": true,
   "cSpell.ignoreWords": ["keymap", "neovim"],
+  "errorLens.fontStyleItalic": true,
   // -- editor --
   "editor.lineNumbers": "relative",
   "editor.rulers": [100],
