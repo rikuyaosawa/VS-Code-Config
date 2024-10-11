@@ -8,23 +8,38 @@
   {
     "key": "space e e",
     "command": "workbench.action.toggleSidebarVisibility",
-    "when": "explorerViewletFocus"
+    "when": "explorerViewletFocus && !inputFocus"
   },
   {
     "key": "space e t",
     "command": "workbench.action.toggleSidebarVisibility",
-    "when": "editorTextFocus || explorerViewletFocus"
+    "when": "(editorTextFocus && vim.mode != 'Insert') || (explorerViewletFocus && !inputFocus)"
+  },
+  {
+    "key": "space a f",
+    "command": "workbench.files.action.createFileFromExplorer",
+    "when": "explorerViewletFocus && !inputFocus"
+  },
+  {
+    "key": "space a d",
+    "command": "workbench.files.action.createFolderFromExplorer",
+    "when": "explorerViewletFocus && !inputFocus"
+  },
+  {
+    "key": "space d",
+    "command": "deleteFile",
+    "when": "explorerViewletFocus && !inputFocus"
   },
   // search
   {
     "key": "space f f",
     "command": "find-it-faster.findFiles", // require FindItFaster ext.
-    "when": "(explorerViewletFocus || editorTextFocus) && vim.mode != 'Insert'"
+    "when": "(editorTextFocus && vim.mode != 'Insert') || (explorerViewletFocus && !inputFocus)"
   },
   {
     "key": "space f s",
     "command": "find-it-faster.findWithinFiles", // require FindItFaster ext.
-    "when": "(explorerViewletFocus || editorTextFocus) && vim.mode != 'Insert'"
+    "when": "(editorTextFocus && vim.mode != 'Insert') || (explorerViewletFocus && !inputFocus)"
   },
   // split view
   {
