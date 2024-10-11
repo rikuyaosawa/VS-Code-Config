@@ -2,10 +2,6 @@
 
 (I use Neovim normally btw...)
 
-### extensions.json
-
-This file can be included inside any .vscode directory
-
-### keybindings.json
-
-On Windows, it goes under ~\AppData\Roaming\Code\User\
+- extensions.json: can be included inside any .vscode directory
+- keybindings.json: on Windows, it goes under ~\AppData\Roaming\Code\User\
+- settings.json: custom config
