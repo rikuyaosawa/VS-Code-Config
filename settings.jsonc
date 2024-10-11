@@ -19,6 +19,7 @@
   // -- editor --
   "editor.lineNumbers": "relative",
   "editor.rulers": [100],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.scrollBeyondLastLine": true,
   "editor.scrollbar.vertical": "hidden",
@@ -29,9 +30,6 @@
   "editor.insertSpaces": true, // space or tab
   "editor.hover.enabled": true,
   // -- language specific --
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-  },
   "go.toolsManagement.autoUpdate": true,
   "python.createEnvironment.trigger": "off",
   // -- debugging --
