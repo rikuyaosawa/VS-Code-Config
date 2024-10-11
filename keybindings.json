@@ -3,23 +3,23 @@
   {
     "key": "space e e",
     "command": "workbench.view.explorer",
-    "when": "editorTextFocus && vim.active && !inDebugRepl && vim.mode != 'Insert'",
+    "when": "editorTextFocus && vim.active && !inDebugRepl && vim.mode != 'Insert'"
   },
   {
     "key": "space e e",
     "command": "workbench.action.toggleSidebarVisibility",
-    "when": "explorerViewletFocus",
+    "when": "explorerViewletFocus"
   },
   // search
   {
     "key": "space f f",
     "command": "find-it-faster.findFiles", // require FindItFaster ext.
-    "when": "editorTextFocus && vim.mode != 'Insert'",
+    "when": "(explorerViewletFocus || editorTextFocus) && vim.mode != 'Insert'"
   },
   {
     "key": "space f s",
     "command": "find-it-faster.findWithinFiles", // require FindItFaster ext.
-    "when": "editorTextFocus && vim.mode != 'Insert'"
+    "when": "(explorerViewletFocus || editorTextFocus) && vim.mode != 'Insert'"
   },
   // split view
   {
@@ -35,28 +35,28 @@
   {
     "key": "shift+k",
     "command": "editor.action.showHover",
-    "when": "editorTextFocus && vim.active && !inDebugRepl && vim.mode != 'Insert'",
+    "when": "editorTextFocus && vim.active && !inDebugRepl && vim.mode != 'Insert'"
   },
   {
     "key": "ctrl+o",
-    "command": "workbench.action.navigateBackInNavigationLocations",
+    "command": "workbench.action.navigateBackInNavigationLocations"
   },
   {
     "key": "ctrl+o",
     "command": "workbench.action.navigateBack",
-    "when": "canNavigateBack",
+    "when": "canNavigateBack"
   },
   {
     "key": "ctrl+i",
-    "command": "workbench.action.navigateForwardInNavigationLocations",
+    "command": "workbench.action.navigateForwardInNavigationLocations"
   },
   {
     "key": "ctrl+i",
     "command": "workbench.action.navigateForward",
-    "when": "canNavigateForward",
+    "when": "canNavigateForward"
   },
   {
     "key": "ctrl+enter",
-    "command": "code-runner.run", // require Code Runner ext.
-  },
+    "command": "code-runner.run" // require Code Runner ext.
+  }
 ]
