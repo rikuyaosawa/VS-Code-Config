@@ -10,6 +10,11 @@
     "command": "workbench.action.toggleSidebarVisibility",
     "when": "explorerViewletFocus"
   },
+  {
+    "key": "space e t",
+    "command": "workbench.action.toggleSidebarVisibility",
+    "when": "editorTextFocus || explorerViewletFocus"
+  },
   // search
   {
     "key": "space f f",
