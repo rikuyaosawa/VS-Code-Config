@@ -57,6 +57,7 @@
     "command": "editor.action.showHover",
     "when": "editorTextFocus && vim.active && !inDebugRepl && vim.mode != 'Insert'"
   },
+  // navigation
   {
     "key": "ctrl+o",
     "command": "workbench.action.navigateBackInNavigationLocations"
