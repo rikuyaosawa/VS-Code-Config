@@ -46,6 +46,12 @@
         "command": "find-it-faster.findWithinFiles", // require FindItFaster ext.
         "when": "(editorTextFocus && vim.mode == 'Normal') || (explorerViewletFocus && !inputFocus)"
     },
+    // git
+    {
+        "key": "space l g",
+        "command": "workbench.view.scm",
+        "when": "(editorTextFocus && vim.mode == 'Normal') || (explorerViewletFocus && !inputFocus)"
+    },
     // split view
     {
         "key": "space s v",
