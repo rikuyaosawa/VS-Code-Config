@@ -1,61 +1,66 @@
 {
-  // -- general --
-  "window.zoomLevel": 1.5,
-  "terminal.integrated.defaultProfile.windows": "PowerShell",
-  "workbench.settings.applyToAllProfiles": [],
-  "workbench.editor.showTabs": "single",
-  "workbench.sideBar.location": "right",
-  "workbench.colorTheme": "Night Owl", // require Night Owl ext.
-  "files.trimTrailingWhitespace": true,
-  // -- extension --
-  "extensions.autoCheckUpdates": false,
-  "extensions.autoUpdate": false,
-  "prettier.tabWidth": 4,
-  "workbench.iconTheme": "vscode-icons",
-  "editor.defaultFoldingRangeProvider": "formulahendry.code-runner",
-  "code-runner.clearPreviousOutput": true,
-  "code-runner.runInTerminal": true,
-  "cSpell.ignoreWords": ["keymap", "neovim"],
-  "errorLens.fontStyleItalic": true,
-  "errorLens.messageBackgroundMode": "message",
-  // -- editor --
-  "editor.lineNumbers": "relative",
-  "editor.rulers": [100],
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
-  "editor.scrollBeyondLastLine": true,
-  "editor.scrollbar.vertical": "hidden",
-  "editor.stickyScroll.maxLineCount": 10,
-  "workbench.colorCustomizations": {
-    "editorRuler.foreground": "#800060"
-  },
-  "editor.insertSpaces": true, // space or tab
-  "editor.hover.enabled": true,
-  // -- language specific --
-  "go.toolsManagement.autoUpdate": true,
-  "python.createEnvironment.trigger": "off",
-  "dart.sdkPath": "C:\\tools\\dart-sdk",
-  "[blade]": {
-    "editor.defaultFormatter": "shufo.vscode-blade-formatter" // requires shufo.vscode-blade-formatter ext.
-  },
-  // -- debugging --
-  "launch": {
-    "configurations": [],
-    "compounds": []
-  },
-  // -- git --
-  "git.openRepositoryInParentFolders": "never",
-  // -- vim custom -- (require vim emulator)
-  "vim.useSystemClipboard": true,
-  "vim.incsearch": true,
-  "vim.hlsearch": false,
-  "vim.ignorecase": true,
-  "vim.smartcase": true,
-  "vim.leader": " ",
-  "vim.insertModeKeyBindings": [
-    {
-      "before": ["j", "k"],
-      "after": ["<Esc>"]
-    }
-  ]
+    // -- general --
+    "window.zoomLevel": 1.5,
+    "window.menuBarVisibility": "toggle",
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    "workbench.settings.applyToAllProfiles": [],
+    "workbench.editor.showTabs": "single",
+    "workbench.sideBar.location": "right",
+    "workbench.colorTheme": "Night Owl", // require Night Owl ext.
+    "workbench.activityBar.location": "top",
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "files.trimTrailingWhitespace": true,
+    // -- extension --
+    "extensions.autoCheckUpdates": false,
+    "extensions.autoUpdate": false,
+    "prettier.tabWidth": 4,
+    "workbench.iconTheme": "vscode-icons",
+    "editor.defaultFoldingRangeProvider": "formulahendry.code-runner",
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.runInTerminal": true,
+    "cSpell.ignoreWords": ["keymap", "neovim"],
+    "errorLens.fontStyleItalic": true,
+    "errorLens.messageBackgroundMode": "message",
+    // -- editor --
+    "editor.lineNumbers": "relative",
+    "editor.rulers": [100],
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.scrollBeyondLastLine": true,
+    "editor.scrollbar.vertical": "hidden",
+    "editor.stickyScroll.maxLineCount": 10,
+    "editor.minimap.enabled": false,
+    "workbench.colorCustomizations": {
+        "editorRuler.foreground": "#800060"
+    },
+    "editor.insertSpaces": true, // space or tab
+    "editor.hover.enabled": true,
+    // -- language specific --
+    "go.toolsManagement.autoUpdate": true,
+    "python.createEnvironment.trigger": "off",
+    "dart.sdkPath": "C:\\tools\\dart-sdk",
+    "[blade]": {
+        "editor.defaultFormatter": "shufo.vscode-blade-formatter" // requires shufo.vscode-blade-formatter ext.
+    },
+    // -- debugging --
+    "launch": {
+        "configurations": [],
+        "compounds": []
+    },
+    // -- git --
+    "git.openRepositoryInParentFolders": "never",
+    // -- vim custom -- (require vim emulator)
+    "vim.useSystemClipboard": true,
+    "vim.incsearch": true,
+    "vim.hlsearch": false,
+    "vim.ignorecase": true,
+    "vim.smartcase": true,
+    "vim.leader": " ",
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "k"],
+            "after": ["<Esc>"]
+        }
+    ]
 }
