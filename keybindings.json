@@ -48,7 +48,7 @@
     },
     // git
     {
-        "key": "space l g",
+        "key": "space g s",
         "command": "workbench.view.scm",
         "when": "(editorTextFocus && vim.mode == 'Normal') || (explorerViewletFocus && !inputFocus)"
     },
