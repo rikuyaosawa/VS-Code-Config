@@ -1,6 +1,6 @@
 {
     // -- general --
-    "window.zoomLevel": 1.5,
+    "window.zoomLevel": 1,
     "window.menuBarVisibility": "toggle",
     "window.commandCenter": false,
     "workbench.layoutControl.enabled": false,
