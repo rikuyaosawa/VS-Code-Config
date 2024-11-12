@@ -8,6 +8,7 @@
     "workbench.editor.showTabs": "single",
     "workbench.sideBar.location": "right",
     "workbench.colorTheme": "Night Owl", // require Night Owl ext.
+    "workbench.startupEditor": "none",
     "workbench.activityBar.location": "top",
     "terminal.integrated.defaultProfile.windows": "PowerShell",
     "files.trimTrailingWhitespace": true,
@@ -40,6 +41,9 @@
     "go.toolsManagement.autoUpdate": true,
     "python.createEnvironment.trigger": "off",
     "dart.sdkPath": "C:\\tools\\dart-sdk",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter" // requires black formatter ext.
+    },
     "[blade]": {
         "editor.defaultFormatter": "shufo.vscode-blade-formatter" // requires shufo.vscode-blade-formatter ext.
     },
