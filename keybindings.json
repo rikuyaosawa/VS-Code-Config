@@ -88,6 +88,12 @@
         "when": "canNavigateForward"
     },
     {
+        "key": "ctrl+tab",
+        "command": "workbench.action.quickOpenTerm",
+        "when": "terminalHasBeenCreated || terminalProcessSupported"
+    },
+    // extension
+    {
         "key": "ctrl+enter",
         "command": "code-runner.run" // require Code Runner ext.
     }
