@@ -19,7 +19,6 @@
     "workbench.iconTheme": "vscode-icons",
     "editor.defaultFoldingRangeProvider": "formulahendry.code-runner",
     "code-runner.clearPreviousOutput": true,
-    "code-runner.runInTerminal": true,
     "cSpell.ignoreWords": ["keymap", "neovim"],
     "errorLens.fontStyleItalic": true,
     "errorLens.messageBackgroundMode": "message",
@@ -32,11 +31,11 @@
     "editor.scrollbar.vertical": "hidden",
     "editor.stickyScroll.maxLineCount": 10,
     "editor.minimap.enabled": false,
+    "editor.insertSpaces": true, // space or tab
+    "editor.hover.enabled": true,
     "workbench.colorCustomizations": {
         "editorRuler.foreground": "#800060"
     },
-    "editor.insertSpaces": true, // space or tab
-    "editor.hover.enabled": true,
     // -- language specific --
     "go.toolsManagement.autoUpdate": true,
     "python.createEnvironment.trigger": "off",
@@ -67,4 +66,5 @@
             "after": ["<Esc>"]
         }
     ]
+    // -- Unsorted
 }
