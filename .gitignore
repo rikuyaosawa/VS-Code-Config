@@ -1,6 +1,6 @@
 tasks.json
 # extensions.json
-*.code-snippets
+#*.code-snippets
 
 # Local History for Visual Studio Code
 .history/
@@ -12,6 +12,6 @@ tasks.json
 
 globalStorage/
 History/
-snippets/
+#snippets/
 sync/
 workspaceStorage/
