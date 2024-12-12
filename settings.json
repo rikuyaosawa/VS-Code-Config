@@ -7,7 +7,7 @@
     "workbench.settings.applyToAllProfiles": [],
     "workbench.editor.showTabs": "single",
     "workbench.sideBar.location": "right",
-    "workbench.colorTheme": "Black", // require Night Owl ext.
+    "workbench.colorTheme": "Emerald",
     "workbench.startupEditor": "none",
     "workbench.activityBar.location": "top",
     "terminal.integrated.defaultProfile.windows": "PowerShell",
@@ -22,6 +22,7 @@
     "cSpell.ignoreWords": ["keymap", "neovim"],
     "errorLens.fontStyleItalic": true,
     "errorLens.messageBackgroundMode": "message",
+    "notebook.formatOnSave.enabled": true,
     // -- editor --
     "editor.lineNumbers": "relative",
     "editor.rulers": [100],
@@ -46,9 +47,6 @@
     "[python]": {
         "editor.defaultFormatter": "ms-python.black-formatter" // requires black formatter ext.
     },
-    "[blade]": {
-        "editor.defaultFormatter": "shufo.vscode-blade-formatter" // requires shufo.vscode-blade-formatter ext.
-    },
     // -- debugging --
     "launch": {
         "configurations": [],
@@ -69,5 +67,4 @@
             "after": ["<Esc>"]
         }
     ]
-    // -- Unsorted
 }
