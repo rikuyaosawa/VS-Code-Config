@@ -96,5 +96,11 @@
     {
         "key": "ctrl+enter",
         "command": "code-runner.run" // require Code Runner ext.
+    },
+    // jupyter notebook
+    {
+        "key": "space j i c",
+        "command": "notebook.cell.insertCodeCellBelow",
+        "when": "notebookEditable && config.notebook.insertToolbarLocation != 'betweenCells' && config.notebook.insertToolbarLocation != 'hidden' && vim.mode == 'Normal'"
     }
 ]
