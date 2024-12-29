@@ -10,8 +10,10 @@
     "workbench.colorTheme": "Emerald",
     "workbench.startupEditor": "none",
     "workbench.activityBar.location": "top",
-    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
+    "terminal.integrated.fontFamily": "MesloLGS Nerd Font Mono",
     "files.trimTrailingWhitespace": true,
+    "security.allowedUNCHosts": ["wsl.localhost"],
     // -- extension --
     "extensions.autoCheckUpdates": false,
     "extensions.autoUpdate": false,
@@ -35,13 +37,10 @@
     "editor.insertSpaces": true, // space or tab
     "editor.hover.enabled": true,
     "workbench.colorCustomizations": {
-        "editorRuler.foreground": "#800060"
+        "editorRuler.foreground": "#000264"
     },
     // -- language specific --
     "go.toolsManagement.autoUpdate": true,
-    "files.associations": {
-        "*.tmpl": "html"
-    },
     "python.createEnvironment.trigger": "off",
     "dart.sdkPath": "C:\\tools\\dart-sdk",
     "[python]": {
@@ -54,6 +53,7 @@
     },
     // -- git --
     "git.openRepositoryInParentFolders": "never",
+    "git.suggestSmartCommit": false,
     // -- vim custom -- (require vim emulator)
     "vim.useSystemClipboard": true,
     "vim.incsearch": true,
