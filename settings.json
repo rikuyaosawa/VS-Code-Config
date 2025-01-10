@@ -7,7 +7,7 @@
     "workbench.settings.applyToAllProfiles": [],
     "workbench.editor.showTabs": "single",
     "workbench.sideBar.location": "right",
-    "workbench.colorTheme": "Emerald",
+    "workbench.colorTheme": "Night Owl",
     "workbench.startupEditor": "none",
     "workbench.activityBar.location": "top",
     "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
@@ -25,6 +25,8 @@
     "errorLens.fontStyleItalic": true,
     "errorLens.messageBackgroundMode": "message",
     "notebook.formatOnSave.enabled": true,
+    "prettify-ts.maxUnionMembers": 5,
+    "prettify-ts.maxCharacters": 1000,
     // -- editor --
     "editor.lineNumbers": "relative",
     "editor.rulers": [100],
