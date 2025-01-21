@@ -7,7 +7,6 @@
     "workbench.settings.applyToAllProfiles": [],
     "workbench.editor.showTabs": "single",
     "workbench.sideBar.location": "right",
-    "workbench.colorTheme": "Night Owl",
     "workbench.startupEditor": "none",
     "workbench.activityBar.location": "top",
     "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
@@ -45,9 +44,18 @@
     // -- language specific --
     "go.toolsManagement.autoUpdate": true,
     "python.createEnvironment.trigger": "off",
-    "dart.sdkPath": "C:\\tools\\dart-sdk",
-    "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter" // requires black formatter ext.
+    "[markdown]": {
+        "editor.unicodeHighlight.ambiguousCharacters": false,
+        "editor.unicodeHighlight.invisibleCharacters": false,
+        "editor.wordWrap": "on",
+        "editor.quickSuggestions": {
+            "comments": "off",
+            "strings": "off",
+            "other": "off"
+        },
+        "cSpell.fixSpellingWithRenameProvider": true,
+        "cSpell.advanced.feature.useReferenceProviderWithRename": true,
+        "cSpell.advanced.feature.useReferenceProviderRemove": "/^#+\\s/"
     },
     // -- debugging --
     "launch": {
