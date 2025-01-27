@@ -1,0 +1,17 @@
+{
+	"Markdown-note": {
+		"scope": "markdown",
+		"prefix": "Markdown note template",
+		"body": [
+			"#",
+			"",
+			"Table of Contents",
+			"",
+			"## Overview",
+			"",
+			"## Source",
+			"",
+			"- []()"
+		]
+	}
+}
