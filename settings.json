@@ -31,6 +31,7 @@
     // -- editor --
     "editor.lineNumbers": "relative",
     "editor.rulers": [100],
+    "editor.tabSize": 4,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true,
     "editor.scrollBeyondLastLine": true,
@@ -54,6 +55,7 @@
             "strings": "off",
             "other": "off"
         },
+        "prettier.tabWidth": 2,
         "cSpell.fixSpellingWithRenameProvider": true,
         "cSpell.advanced.feature.useReferenceProviderWithRename": true,
         "cSpell.advanced.feature.useReferenceProviderRemove": "/^#+\\s/"
