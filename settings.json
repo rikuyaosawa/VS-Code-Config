@@ -60,6 +60,9 @@
         "cSpell.advanced.feature.useReferenceProviderWithRename": true,
         "cSpell.advanced.feature.useReferenceProviderRemove": "/^#+\\s/"
     },
+    "[java]": {
+        "editor.defaultFormatter": "redhat.java"
+    },
     // -- debugging --
     "launch": {
         "configurations": [],
