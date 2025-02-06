@@ -5,7 +5,8 @@
 		"body": [
 			"<details><summary>Answer</summary>",
 			"",
-			"</details>"
+			"</details>",
+			"<br />"
 		],
 		"description": "Print markdown detail template"
 	}
