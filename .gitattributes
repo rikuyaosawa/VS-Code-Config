@@ -1,4 +1,2 @@
 *.json linguist-detectable=true
 *.json linguist-documentation=false
-*.code-snippets linguist-detectable=true
-*.code-snippets linguist-documentation=false
