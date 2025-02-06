@@ -1,0 +1,12 @@
+{
+	"Print markdown details template": {
+		"scope": "markdown",
+		"prefix": "details - markdown",
+		"body": [
+			"<details><summary>Answer</summary>",
+			"",
+			"</details>"
+		],
+		"description": "Print markdown detail template"
+	}
+}
